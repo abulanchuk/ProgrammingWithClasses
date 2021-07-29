@@ -48,7 +48,7 @@ public class Customer {
         this.bankAccountNumber = bankAccountNumber;
     }
 
-    public String toString() {
+     public String toString() {
         return id + " " + name + " " + surname + " " + patronymic + " " + address + " " + cardNumber + " " + bankAccountNumber;
     }
 }
